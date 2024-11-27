@@ -1,0 +1,66 @@
+# configuration environnement 
+devenv
+
+# Django 
+*.log
+.pot
+.pyc
+__pycache__
+
+# Docker generated files/folder from config
+mysql
+
+.env.prod
+
+# prod files
+staticfiles
+
+# Python Files
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+staticfiles/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django Files
+*.pot
+*.pyc
+db.sqlite3
+media
+
+# Virtual Environment
+venv/
+
+# PyCharm Files
+.idea/
+
+# VSCode Files
+.vscode/
+
+# AWS CLI
+.aws/
+
+# AWS Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# AWS EB CLI
+.ebcli-virtual-env/
